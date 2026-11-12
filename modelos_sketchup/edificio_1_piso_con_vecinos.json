@@ -1,0 +1,256 @@
+{
+  "app": "Simulador T\u00e9rmico Bioclim\u00e1tico Per\u00fa",
+  "name": "Edificaci\u00f3n 1 Piso con Muros Vecinos Altos (SketchUp)",
+  "surfaces": [
+    {
+      "name": "Muro_Frontal_Sur_N1",
+      "type": "wall",
+      "level": 1,
+      "vertices": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          9.0,
+          0.0,
+          0.0
+        ],
+        [
+          9.0,
+          0.0,
+          2.8
+        ],
+        [
+          0.0,
+          0.0,
+          2.8
+        ]
+      ],
+      "orientation": "Sur"
+    },
+    {
+      "name": "Muro_Posterior_Norte_N1",
+      "type": "wall",
+      "level": 1,
+      "vertices": [
+        [
+          9.0,
+          5.5,
+          0.0
+        ],
+        [
+          0.0,
+          5.5,
+          0.0
+        ],
+        [
+          0.0,
+          5.5,
+          2.8
+        ],
+        [
+          9.0,
+          5.5,
+          2.8
+        ]
+      ],
+      "orientation": "Norte"
+    },
+    {
+      "name": "Muro_Lateral_Este_N1",
+      "type": "wall",
+      "level": 1,
+      "vertices": [
+        [
+          9.0,
+          0.0,
+          0.0
+        ],
+        [
+          9.0,
+          5.5,
+          0.0
+        ],
+        [
+          9.0,
+          5.5,
+          2.8
+        ],
+        [
+          9.0,
+          0.0,
+          2.8
+        ]
+      ],
+      "orientation": "Este"
+    },
+    {
+      "name": "Muro_Lateral_Oeste_N1",
+      "type": "wall",
+      "level": 1,
+      "vertices": [
+        [
+          0.0,
+          5.5,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          2.8
+        ],
+        [
+          0.0,
+          5.5,
+          2.8
+        ]
+      ],
+      "orientation": "Oeste"
+    },
+    {
+      "name": "Ventana_1_N1",
+      "type": "window",
+      "level": 1,
+      "vertices": [
+        [
+          1.5,
+          -0.02,
+          1.0
+        ],
+        [
+          3.1,
+          -0.02,
+          1.0
+        ],
+        [
+          3.1,
+          -0.02,
+          2.2
+        ],
+        [
+          1.5,
+          -0.02,
+          2.2
+        ]
+      ],
+      "orientation": "Sur"
+    },
+    {
+      "name": "Ventana_2_N1",
+      "type": "window",
+      "level": 1,
+      "vertices": [
+        [
+          4.5,
+          -0.02,
+          1.0
+        ],
+        [
+          6.1,
+          -0.02,
+          1.0
+        ],
+        [
+          6.1,
+          -0.02,
+          2.2
+        ],
+        [
+          4.5,
+          -0.02,
+          2.2
+        ]
+      ],
+      "orientation": "Sur"
+    },
+    {
+      "name": "Cubierta_Techo",
+      "type": "roof",
+      "level": 1,
+      "vertices": [
+        [
+          0.0,
+          0.0,
+          2.8
+        ],
+        [
+          9.0,
+          0.0,
+          2.8
+        ],
+        [
+          9.0,
+          5.5,
+          2.8
+        ],
+        [
+          0.0,
+          5.5,
+          2.8
+        ]
+      ],
+      "orientation": "Techo"
+    }
+  ],
+  "obstacles": [
+    {
+      "name": "Muro_Vecino_Colindante_Este",
+      "direction": "Este",
+      "vertices": [
+        [
+          9.3,
+          -1.0,
+          0.0
+        ],
+        [
+          9.3,
+          6.5,
+          0.0
+        ],
+        [
+          9.3,
+          6.5,
+          6.0
+        ],
+        [
+          9.3,
+          -1.0,
+          6.0
+        ]
+      ]
+    },
+    {
+      "name": "Muro_Vecino_Colindante_Oeste",
+      "direction": "Oeste",
+      "vertices": [
+        [
+          -0.3,
+          6.5,
+          0.0
+        ],
+        [
+          -0.3,
+          -1.0,
+          0.0
+        ],
+        [
+          -0.3,
+          -1.0,
+          5.5
+        ],
+        [
+          -0.3,
+          6.5,
+          5.5
+        ]
+      ]
+    }
+  ]
+}

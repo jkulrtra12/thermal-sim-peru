@@ -1,0 +1,424 @@
+{
+  "app": "Simulador T\u00e9rmico Bioclim\u00e1tico Per\u00fa",
+  "name": "Edificaci\u00f3n 2 Niveles - Nivel 2 Expuesto (SketchUp)",
+  "surfaces": [
+    {
+      "name": "Muro_Frontal_Sur_N1",
+      "type": "wall",
+      "level": 1,
+      "vertices": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          8.0,
+          0.0,
+          0.0
+        ],
+        [
+          8.0,
+          0.0,
+          2.8
+        ],
+        [
+          0.0,
+          0.0,
+          2.8
+        ]
+      ],
+      "orientation": "Sur"
+    },
+    {
+      "name": "Muro_Posterior_Norte_N1",
+      "type": "wall",
+      "level": 1,
+      "vertices": [
+        [
+          8.0,
+          5.0,
+          0.0
+        ],
+        [
+          0.0,
+          5.0,
+          0.0
+        ],
+        [
+          0.0,
+          5.0,
+          2.8
+        ],
+        [
+          8.0,
+          5.0,
+          2.8
+        ]
+      ],
+      "orientation": "Norte"
+    },
+    {
+      "name": "Muro_Lateral_Este_N1",
+      "type": "wall",
+      "level": 1,
+      "vertices": [
+        [
+          8.0,
+          0.0,
+          0.0
+        ],
+        [
+          8.0,
+          5.0,
+          0.0
+        ],
+        [
+          8.0,
+          5.0,
+          2.8
+        ],
+        [
+          8.0,
+          0.0,
+          2.8
+        ]
+      ],
+      "orientation": "Este"
+    },
+    {
+      "name": "Muro_Lateral_Oeste_N1",
+      "type": "wall",
+      "level": 1,
+      "vertices": [
+        [
+          0.0,
+          5.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          2.8
+        ],
+        [
+          0.0,
+          5.0,
+          2.8
+        ]
+      ],
+      "orientation": "Oeste"
+    },
+    {
+      "name": "Ventana_1_N1",
+      "type": "window",
+      "level": 1,
+      "vertices": [
+        [
+          1.5,
+          -0.02,
+          1.0
+        ],
+        [
+          3.1,
+          -0.02,
+          1.0
+        ],
+        [
+          3.1,
+          -0.02,
+          2.2
+        ],
+        [
+          1.5,
+          -0.02,
+          2.2
+        ]
+      ],
+      "orientation": "Sur"
+    },
+    {
+      "name": "Ventana_2_N1",
+      "type": "window",
+      "level": 1,
+      "vertices": [
+        [
+          4.5,
+          -0.02,
+          1.0
+        ],
+        [
+          6.1,
+          -0.02,
+          1.0
+        ],
+        [
+          6.1,
+          -0.02,
+          2.2
+        ],
+        [
+          4.5,
+          -0.02,
+          2.2
+        ]
+      ],
+      "orientation": "Sur"
+    },
+    {
+      "name": "Muro_Frontal_Sur_N2",
+      "type": "wall",
+      "level": 2,
+      "vertices": [
+        [
+          0.0,
+          0.0,
+          2.8
+        ],
+        [
+          8.0,
+          0.0,
+          2.8
+        ],
+        [
+          8.0,
+          0.0,
+          5.6
+        ],
+        [
+          0.0,
+          0.0,
+          5.6
+        ]
+      ],
+      "orientation": "Sur"
+    },
+    {
+      "name": "Muro_Posterior_Norte_N2",
+      "type": "wall",
+      "level": 2,
+      "vertices": [
+        [
+          8.0,
+          5.0,
+          2.8
+        ],
+        [
+          0.0,
+          5.0,
+          2.8
+        ],
+        [
+          0.0,
+          5.0,
+          5.6
+        ],
+        [
+          8.0,
+          5.0,
+          5.6
+        ]
+      ],
+      "orientation": "Norte"
+    },
+    {
+      "name": "Muro_Lateral_Este_N2",
+      "type": "wall",
+      "level": 2,
+      "vertices": [
+        [
+          8.0,
+          0.0,
+          2.8
+        ],
+        [
+          8.0,
+          5.0,
+          2.8
+        ],
+        [
+          8.0,
+          5.0,
+          5.6
+        ],
+        [
+          8.0,
+          0.0,
+          5.6
+        ]
+      ],
+      "orientation": "Este"
+    },
+    {
+      "name": "Muro_Lateral_Oeste_N2",
+      "type": "wall",
+      "level": 2,
+      "vertices": [
+        [
+          0.0,
+          5.0,
+          2.8
+        ],
+        [
+          0.0,
+          0.0,
+          2.8
+        ],
+        [
+          0.0,
+          0.0,
+          5.6
+        ],
+        [
+          0.0,
+          5.0,
+          5.6
+        ]
+      ],
+      "orientation": "Oeste"
+    },
+    {
+      "name": "Ventana_1_N2",
+      "type": "window",
+      "level": 2,
+      "vertices": [
+        [
+          1.5,
+          -0.02,
+          3.8
+        ],
+        [
+          3.1,
+          -0.02,
+          3.8
+        ],
+        [
+          3.1,
+          -0.02,
+          5.0
+        ],
+        [
+          1.5,
+          -0.02,
+          5.0
+        ]
+      ],
+      "orientation": "Sur"
+    },
+    {
+      "name": "Ventana_2_N2",
+      "type": "window",
+      "level": 2,
+      "vertices": [
+        [
+          4.5,
+          -0.02,
+          3.8
+        ],
+        [
+          6.1,
+          -0.02,
+          3.8
+        ],
+        [
+          6.1,
+          -0.02,
+          5.0
+        ],
+        [
+          4.5,
+          -0.02,
+          5.0
+        ]
+      ],
+      "orientation": "Sur"
+    },
+    {
+      "name": "Cubierta_Techo",
+      "type": "roof",
+      "level": 2,
+      "vertices": [
+        [
+          0.0,
+          0.0,
+          5.6
+        ],
+        [
+          8.0,
+          0.0,
+          5.6
+        ],
+        [
+          8.0,
+          5.0,
+          5.6
+        ],
+        [
+          0.0,
+          5.0,
+          5.6
+        ]
+      ],
+      "orientation": "Techo"
+    }
+  ],
+  "obstacles": [
+    {
+      "name": "Muro_Vecino_Colindante_Este",
+      "direction": "Este",
+      "vertices": [
+        [
+          8.3,
+          -1.0,
+          0.0
+        ],
+        [
+          8.3,
+          6.0,
+          0.0
+        ],
+        [
+          8.3,
+          6.0,
+          4.5
+        ],
+        [
+          8.3,
+          -1.0,
+          4.5
+        ]
+      ]
+    },
+    {
+      "name": "Muro_Vecino_Colindante_Oeste",
+      "direction": "Oeste",
+      "vertices": [
+        [
+          -0.3,
+          6.0,
+          0.0
+        ],
+        [
+          -0.3,
+          -1.0,
+          0.0
+        ],
+        [
+          -0.3,
+          -1.0,
+          4.0
+        ],
+        [
+          -0.3,
+          6.0,
+          4.0
+        ]
+      ]
+    }
+  ]
+}
